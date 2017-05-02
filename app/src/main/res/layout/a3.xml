@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/branchc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CHOOSE BRANCH"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="119dp" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:text="NAME"
+    android:layout_alignTop="@+id/nf"
+    android:layout_toRightOf="@+id/branchc"
+    android:layout_toEndOf="@+id/branchc" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RANK"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:layout_alignTop="@+id/rank"
+    android:layout_alignLeft="@+id/textView6"
+    android:layout_alignStart="@+id/textView6" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="DATE"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:layout_alignTop="@+id/date"
+    android:layout_alignLeft="@+id/textView4"
+    android:layout_alignStart="@+id/textView4" />
+
+<TextView
+    android:id="@+id/nf"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="122dp"
+    android:layout_marginTop="59dp"
+    android:text="TextView"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+   />
+
+<TextView
+    android:id="@+id/rank"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="118dp"
+    android:layout_marginTop="122dp"
+    android:text="TextView"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+     />
+
+<TextView
+    android:id="@+id/date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="118dp"
+    android:layout_marginTop="189dp"
+    android:text="TextView"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    />
+</RelativeLayout>

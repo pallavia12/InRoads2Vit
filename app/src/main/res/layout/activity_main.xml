@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.palla.inroads2vit.MainActivity">
+
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/sign_in_budtton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="83dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignLeft="@+id/status"
+    android:layout_alignStart="@+id/status" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/detail"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+     />
+
+<Button
+    android:text="Button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/signout"
+    android:layout_marginEnd="48dp"
+    android:layout_alignTop="@+id/sign_in_budtton"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginRight="48dp" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/status"
+    android:layout_marginTop="166dp"
+    android:layout_below="@+id/detail"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

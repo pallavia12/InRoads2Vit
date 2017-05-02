@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "595200285361",
+    "firebase_url": "https://inroads2vit-e6f7f.firebaseio.com",
+    "project_id": "inroads2vit-e6f7f",
+    "storage_bucket": "inroads2vit-e6f7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595200285361:android:3137881d6a7166fe",
+        "android_client_info": {
+          "package_name": "com.example.palla.inroads2vit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595200285361-tagmj95dmlfbmmbpr1oa3q90onvtom61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBltgRN6QVzidukYxvMZV8PepdBvMpPd2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

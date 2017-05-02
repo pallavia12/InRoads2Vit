@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InRoads2Vit</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_slot_selection">SlotSelection</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="title_activity_fourth">fourth</string>
+    <string name="title_activity_final">Final</string>
+</resources>
